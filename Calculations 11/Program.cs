@@ -29,7 +29,19 @@ namespace Calculations_11
                 Console.WriteLine($"The coordinate point ({x} {y}) lies in the Third quandrant." );
 
             else if (x > 0 && y < 0)
-                Console.WriteLine($"The coordinate point ({x} {y}) lies in the Fourth quandrant." );
+                Console.WriteLine($"The coordinate point ({x} {y}) lies in the Fourth quandrant.");
+            
+            else if (x > 0 && y == 0)
+                Console.WriteLine($"The coordinate point ({x} {y}) lies between the First and the Fourth quandrant.");
+            
+            else if (x == 0 && y < 0)
+                Console.WriteLine($"The coordinate point ({x} {y}) lies between the Third and the Fourth quandrant.");
+            
+            else if (x == 0 && y > 0)
+                Console.WriteLine($"The coordinate point ({x} {y}) lies between the First and the Second quandrant.");
+            
+            else if (x < 0 && y == 0)
+                Console.WriteLine($"The coordinate point ({x} {y}) lies between the Second and the Third quandrant.");
 
             else if (x == 0 && y == 0)
                 Console.WriteLine($"The coordinate point ({x} {y}) lies at the origin." );
