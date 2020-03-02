@@ -11,10 +11,23 @@ namespace Condtion_2
             Console.WriteLine();
             Console.WriteLine();
             Console.Write("First number here:");
-            int a= Math.Abs(int.Parse(Console.ReadLine()));
+            int a= int.Parse(Console.ReadLine());
 
+            Console.WriteLine();
+            Console.WriteLine();
+            Console.Write("First number here:");
+            int b = int.Parse(Console.ReadLine());
 
-           //int a = Math.Abs(int.Parse(Console.ReadLine()));
+            Console.WriteLine();
+            Console.WriteLine();            
+            int c = (a-b);
+
+            if (a > b)
+            {
+                Console.WriteLine(Math.Abs(c*2));
+            }
+            else
+                Console.WriteLine(Math.Abs(c));
 
         }
     }

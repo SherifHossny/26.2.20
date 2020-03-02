@@ -21,7 +21,7 @@ namespace Condtion_1
 
             if (a < 0 && b > 0)
             {
-                Console.WriteLine("Yes the first one is Negative and the second is Positive.");
+                Console.WriteLine("Yes, the first one is Negative and the second is Positive.");
             }
             else{
                 Console.WriteLine("The numbers that you provided did not pass the test");
