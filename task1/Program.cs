@@ -23,6 +23,7 @@ namespace task1
 
                 Console.WriteLine(a + b * c);
                 Console.WriteLine(" ");
+                Console.WriteLine(" ");
             }
 
             {
@@ -40,7 +41,9 @@ namespace task1
                 var c = int.Parse(Console.ReadLine());
 
                 Console.WriteLine((a + b) % c);
+                Console.WriteLine(" "); 
                 Console.WriteLine(" ");
+
             }
 
             {
@@ -62,6 +65,8 @@ namespace task1
 
                 Console.WriteLine(a + b * c / d);
                 Console.WriteLine(" ");
+                Console.WriteLine(" ");
+
             }
             {
                 Console.WriteLine("Example 4");

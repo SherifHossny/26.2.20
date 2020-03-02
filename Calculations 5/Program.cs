@@ -9,7 +9,7 @@ namespace Calculations_5
             Console.WriteLine("Thermometer converter");
             Console.WriteLine(" ");
 
-            Console.Write("Enter the amount of celsius: ");
+            Console.Write("Enter the degrees in celsius: ");
             int celsius = int.Parse(Console.ReadLine());
 
             Console.WriteLine($"Kelvin = {celsius + 273}");
