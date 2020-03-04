@@ -21,7 +21,7 @@ namespace Calculations_4
 
             Console.Write("Enter the fourth number: ");
             var d = int.Parse(Console.ReadLine());
-            s            
+                        
             Console.WriteLine("");
             Console.WriteLine($"The average of {a}, {b}, {c}, {d} is {(a+b+c+d)/4}");
         }
