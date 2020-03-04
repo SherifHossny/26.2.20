@@ -24,6 +24,8 @@ namespace Characters_and_Strings_3
 
             for(int a = (yourString.Length-1); a > -1; a--)
             {
+                //string c = yourString[a].ToString();
+                //newList.Add(c);
                 newList.Add(yourString[a]);
                 //newList.Add(yourString[a]);
             }
